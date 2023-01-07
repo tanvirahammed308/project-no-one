@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+/* banner-style */
+.banner-container {
+  background-image: url(./images/banner/banner3.png);
+  width: 100%;
+  height: 900px;
+  background-repeat: no-repeat;
+}
+/* banner-content-style */
+.banner-content {
+  display: block;
+  float: right;
+  margin: 250px 100px;
+
+  width: 400px;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 35px;
+  color: white;
+  text-align: justify;
+  margin-bottom: 25px;
+}
+.banner-description {
+  color: white;
+  font-size: 14px;
+  text-align: justify;
+  margin-bottom: 25px;
+}
+.btn-1 {
+  font-size: 12px;
+  color: rgb(37, 37, 177);
+  border: 0;
+  border-radius: 5px;
+  height: 45px;
+  padding: 10px 10px;
+  float: right;
+}
+
+/* person pic and My failures of
+        previous year  section-1 style */
+.section-1 {
+  display: flex;
+}
+.section-1-container {
+  width: 400px;
+  height: 350px;
+  margin-top: 300px;
+  margin-left: 80px;
+}
+ul {
+  margin-top: 10px;
+  list-style: url(/icons8-done-20.png);
+}
+.section-1-title {
+  padding-bottom: 30px;
+}
+/* section-2 my plan style */
+.section-2-title {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.section-2-container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 50px;
+}
+.section-2-container-title {
+  text-align: left;
+
+  margin-right: 50px;
+}
+.section-2-container-title-sub {
+  color: rgb(184, 172, 172);
+  font-size: 12px;
+}
+/* section 3 */
+.section-3-container {
+  background-image: url(/images/watch.png),
+    linear-gradient(rgba(59, 64, 202, 0.2), rgba(59, 202, 201, 0.4));
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 900px;
+  height: 200px;
+  margin-left: 200px;
+  margin-bottom: 100px;
+  border-radius: 10px;
+  margin-top: 100px;
+}
+.section-3-content {
+  width: 350px;
+  height: 150px;
+  margin-top: 100px;
+  display: block;
+  padding-top: 55px;
+  padding-left: 220px;
+}
+.btn-2 {
+  font-size: 12px;
+  color: rgb(37, 37, 177);
+  border: 0;
+  border-radius: 5px;
+
+  width: 130px;
+  padding: 10px 10px;
+  float: left;
+  margin-top: 30px;
+}
+
+.section-3-litle {
+  color: white;
+}
+/* footer-the end */
+footer {
+  background-color: black;
+  height: 450px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+.social-media-icon {
+  display: flex;
+  gap: 20px;
+
+  margin-top: 10px;
+  margin-bottom: 200px;
+  margin-left: 120px;
+  width: 200px;
+}
+.footer-content-1 {
+  width: 300px;
+  height: 180px;
+  margin-top: 70px;
+  margin-left: 120px;
+}
+.footer-content-title {
+  color: white;
+}
+.d2 {
+  color: white;
+  font-size: 12px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.a {
+  color: white;
+}
+.phone {
+  color: white;
+  padding-top: 10px;
+}
+
+/* footer2 */
+
+.footer-content-2 {
+  display: block;
+
+  width: 200px;
+  height: 130px;
+  margin-top: 98px;
+  margin-right: 200px;
+}
+.email {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  border: 2px solid black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+.subscribe {
+  color: white;
+}
+.btn-3 {
+  color: white;
+  background: rgb(47, 47, 207);
+  width: 120px;
+  height: 50px;
+  border-radius: 8px;
+}
+.text-area {
+  border-radius: 20px;
+  width: 200px;
+  height: 40px;
+  padding: 50px 50px 50px 50px;
+  margin-top: 15px;
+}
